@@ -19,7 +19,7 @@ class WatchCommand extends Command
             ->setDescription('Watches for file changes and triggers phpspec tests');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output = new SymfonyStyle($input, $output);
         $this->displayInfo($output);
