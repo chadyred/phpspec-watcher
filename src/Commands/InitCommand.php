@@ -16,7 +16,7 @@ class InitCommand extends Command
             ->setDescription('initializes the phpspec watcher configuration file in the current working directory.');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output = new SymfonyStyle($input, $output);
 
