@@ -12,7 +12,7 @@
     "license": "MIT",
     "homepage": "https://github.com/fetzi/phpspec-watcher",
     "require": {
-        "php": "^7.0 || ^8.0",
+        "php": "^7.2 || ^8.0",
         "clue/stdio-react": "^2.3",
         "jolicode/jolinotif": "^2.0.",
         "react/event-loop": "^1.1",
